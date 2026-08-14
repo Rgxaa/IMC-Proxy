@@ -1,0 +1,4 @@
+根据操作系统安装Node.js和npm
+cd imc-proxy
+npm install
+npm start
