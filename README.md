@@ -1,4 +1,4 @@
-# imc-proxy
+# IMC-Proxy
 
 让**原版 Minecraft Java Edition 1.8.8 与 1.12.2** 客户端,通过本地一个 TCP 端口,加入只放行 **EaglerCraft 网页客户端**的 EaglerXServer 服务器。代理把原版 MC 的 TCP 协议翻译成 EaglerCraft 的 WebSocket 握手协议,**单一端口、自动判断版本**:1.8 客户端加入时伪装成 EaglercraftX 1.8(`gameVers=47`),1.12.2 客户端加入时伪装成 EaglercraftX 1.12.2(`gameVers=340`),由 EaglerXServer 服务端按 `gameVers` 自动适配,故同一端口能同时讲两版本。
 
